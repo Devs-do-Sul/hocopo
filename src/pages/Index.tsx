@@ -12,92 +12,105 @@ interface ZodiacSign {
   dateRange: string;
   element: string;
   horoscope: string;
+  backgroundStyle: string;
 }
 
 const zodiacSigns: ZodiacSign[] = [
   {
-    name: "Aries",
+    name: "Áries",
     symbol: "♈",
-    dateRange: "March 21 - April 19",
-    element: "Fire",
-    horoscope: "Today brings a surge of creative energy that will illuminate new possibilities in your professional life. Your natural leadership qualities are particularly strong now, making this an excellent time to pitch new ideas or take charge of challenging projects. The planetary alignment suggests that a conversation with a colleague or mentor could open doors you hadn't previously considered. In matters of the heart, be bold but patient - someone special may be waiting for you to make the first move. Your ruling planet Mars is encouraging you to step outside your comfort zone, especially in financial decisions. Trust your instincts when it comes to investments or career changes. The evening hours favor personal reflection and planning for the week ahead. Remember that your pioneering spirit is your greatest asset, so don't let temporary setbacks discourage you from pursuing your goals with the determination that defines your sign."
+    dateRange: "21 de Março - 19 de Abril",
+    element: "Fogo",
+    backgroundStyle: "bg-gradient-to-br from-red-600 via-orange-500 to-yellow-400",
+    horoscope: "Hoje traz uma onda de energia criativa que iluminará novas possibilidades em sua vida profissional. Suas qualidades naturais de liderança estão particularmente fortes agora, tornando este um momento excelente para apresentar novas ideias ou assumir projetos desafiadores. O alinhamento planetário sugere que uma conversa com um colega ou mentor pode abrir portas que você não havia considerado anteriormente. Em questões do coração, seja corajoso mas paciente - alguém especial pode estar esperando você dar o primeiro passo. Seu planeta regente Marte está encorajando você a sair da sua zona de conforto, especialmente em decisões financeiras. Confie em seus instintos quando se trata de investimentos ou mudanças de carreira. As horas da noite favorecem reflexão pessoal e planejamento para a semana que vem. Lembre-se de que seu espírito pioneiro é seu maior patrimônio."
   },
   {
-    name: "Taurus",
+    name: "Touro",
     symbol: "♉",
-    dateRange: "April 20 - May 20",
-    element: "Earth",
-    horoscope: "Venus, your ruling planet, is blessing you with heightened sensuality and appreciation for life's finer pleasures today. This is an ideal time to indulge in activities that nourish your soul - whether that's enjoying a gourmet meal, listening to beautiful music, or spending time in nature. Your practical nature is being rewarded as a long-term investment or savings plan shows promising results. In relationships, your steady and reliable nature is attracting positive attention from those who value depth and authenticity. However, be mindful not to let stubbornness prevent you from considering new perspectives, especially in family matters. The stars suggest that a change in your daily routine could lead to unexpected benefits for your health and well-being. Trust your natural instincts about people and situations - your ability to sense authenticity is particularly sharp right now. Financial opportunities may present themselves through social connections, so stay open to networking."
+    dateRange: "20 de Abril - 20 de Maio",
+    element: "Terra",
+    backgroundStyle: "bg-gradient-to-br from-green-700 via-emerald-500 to-lime-400",
+    horoscope: "Vênus, seu planeta regente, está abençoando você com sensualidade elevada e apreciação pelos prazeres mais refinados da vida hoje. Este é um momento ideal para se entregar a atividades que nutrem sua alma - seja desfrutando de uma refeição gourmet, ouvindo música bela ou passando tempo na natureza. Sua natureza prática está sendo recompensada quando um investimento de longo prazo ou plano de poupança mostra resultados promissores. Nos relacionamentos, sua natureza estável e confiável está atraindo atenção positiva daqueles que valorizam profundidade e autenticidade. No entanto, tenha cuidado para não deixar a teimosia impedir você de considerar novas perspectivas, especialmente em assuntos familiares. As estrelas sugerem que uma mudança em sua rotina diária pode levar a benefícios inesperados para sua saúde e bem-estar. Confie em seus instintos naturais sobre pessoas e situações."
   },
   {
-    name: "Gemini",
+    name: "Gêmeos",
     symbol: "♊",
-    dateRange: "May 21 - June 20",
-    element: "Air",
-    horoscope: "Your quick wit and natural curiosity are your superpowers today, dear Gemini. Mercury's influence is enhancing your communication skills, making this an excellent day for important conversations, presentations, or creative writing. You may find yourself juggling multiple interesting opportunities - trust your ability to adapt and multitask, but don't spread yourself too thin. A chance encounter or unexpected message could provide the missing piece to a puzzle you've been trying to solve. Your dual nature is an asset now, allowing you to see both sides of complex situations and find innovative solutions. In matters of love, your charm is irresistible, and intellectual connections are particularly favored. Consider exploring new learning opportunities or sharing your knowledge with others - teaching or mentoring could bring unexpected rewards. The afternoon brings favorable conditions for travel plans or connecting with people from different backgrounds. Stay flexible and keep your options open, as the best opportunities often come disguised as casual conversations."
+    dateRange: "21 de Maio - 20 de Junho",
+    element: "Ar",
+    backgroundStyle: "bg-gradient-to-br from-sky-400 via-cyan-300 to-blue-200",
+    horoscope: "Sua perspicácia e curiosidade natural são seus superpoderes hoje, caro Gêmeos. A influência de Mercúrio está aprimorando suas habilidades de comunicação, tornando este um dia excelente para conversas importantes, apresentações ou escrita criativa. Você pode se encontrar equilibrando múltiplas oportunidades interessantes - confie em sua capacidade de se adaptar e realizar várias tarefas, mas não se espalhe demais. Um encontro casual ou mensagem inesperada pode fornecer a peça que faltava para um quebra-cabeça que você tem tentado resolver. Sua natureza dual é um trunfo agora, permitindo que você veja ambos os lados de situações complexas e encontre soluções inovadoras. Em questões de amor, seu charme é irresistível, e conexões intelectuais são particularmente favorecidas. Considere explorar novas oportunidades de aprendizado ou compartilhar seu conhecimento com outros."
   },
   {
-    name: "Cancer",
+    name: "Câncer",
     symbol: "♋",
-    dateRange: "June 21 - July 22",
-    element: "Water",
-    horoscope: "The Moon's gentle influence is amplifying your intuitive powers today, making you exceptionally sensitive to the emotions and needs of those around you. This emotional intelligence is your greatest strength right now - use it to deepen connections with family and close friends. Your nurturing nature is being called upon, and you'll find great satisfaction in helping others feel secure and cared for. Home and family matters take center stage, and you may receive good news related to property or domestic arrangements. Your creative abilities are flowing freely, so consider channeling your emotions into artistic pursuits or home decorating projects. In professional settings, your ability to create a harmonious atmosphere will be noticed and appreciated by superiors. Trust your gut feelings about new people entering your life - your instincts about character are rarely wrong. The evening is perfect for intimate gatherings or quiet moments of reflection. Remember that caring for others starts with caring for yourself, so make time for the self-care rituals that restore your emotional balance."
+    dateRange: "21 de Junho - 22 de Julho",
+    element: "Água",
+    backgroundStyle: "bg-gradient-to-br from-blue-800 via-indigo-600 to-purple-400",
+    horoscope: "A influência suave da Lua está amplificando seus poderes intuitivos hoje, tornando você excepcionalmente sensível às emoções e necessidades daqueles ao seu redor. Esta inteligência emocional é sua maior força agora - use-a para aprofundar conexões com família e amigos próximos. Sua natureza carinhosa está sendo solicitada, e você encontrará grande satisfação em ajudar outros a se sentirem seguros e cuidados. Assuntos domésticos e familiares ocupam o centro do palco, e você pode receber boas notícias relacionadas a propriedade ou arranjos domésticos. Suas habilidades criativas estão fluindo livremente, então considere canalizar suas emoções para empreendimentos artísticos ou projetos de decoração. Em ambientes profissionais, sua capacidade de criar uma atmosfera harmoniosa será notada e apreciada pelos superiores. Confie em seus sentimentos instintivos sobre novas pessoas entrando em sua vida."
   },
   {
-    name: "Leo",
+    name: "Leão",
     symbol: "♌",
-    dateRange: "July 23 - August 22",
-    element: "Fire",
-    horoscope: "The Sun is shining brightly on your endeavors today, illuminating your natural charisma and creative talents. This is your moment to step into the spotlight and share your unique gifts with the world. Your confidence is magnetic, drawing opportunities and admirers alike. A creative project or performance could gain unexpected recognition, so don't be modest about showcasing your abilities. In leadership roles, your generous spirit and ability to inspire others will create lasting positive impacts. Romance is highly favored, with the potential for grand gestures and passionate declarations. However, remember that true leadership involves lifting others up, not just basking in personal glory. Your ruling Sun encourages you to be authentic and generous in all your dealings. Children or younger people may play a significant role in today's events, bringing joy and fresh perspectives. The arts, entertainment, or any field requiring creativity and self-expression offers particular promise. Trust in your natural ability to brighten any room you enter, but balance your need for attention with genuine care for others' feelings."
+    dateRange: "23 de Julho - 22 de Agosto",
+    element: "Fogo",
+    backgroundStyle: "bg-gradient-to-br from-yellow-500 via-orange-400 to-red-500",
+    horoscope: "O Sol está brilhando intensamente em seus empreendimentos hoje, iluminando seu carisma natural e talentos criativos. Este é seu momento de entrar nos holofotes e compartilhar seus dons únicos com o mundo. Sua confiança é magnética, atraindo tanto oportunidades quanto admiradores. Um projeto criativo ou performance pode ganhar reconhecimento inesperado, então não seja modesto sobre mostrar suas habilidades. Em papéis de liderança, seu espírito generoso e capacidade de inspirar outros criará impactos positivos duradouros. O romance é altamente favorecido, com potencial para grandes gestos e declarações apaixonadas. No entanto, lembre-se de que a verdadeira liderança envolve elevar os outros, não apenas basear-se na glória pessoal. Seu Sol regente encoraja você a ser autêntico e generoso em todos os seus relacionamentos. Crianças ou pessoas mais jovens podem desempenhar um papel significativo nos eventos de hoje."
   },
   {
-    name: "Virgo",
+    name: "Virgem",
     symbol: "♍",
-    dateRange: "August 23 - September 22",
-    element: "Earth",
-    horoscope: "Your meticulous attention to detail and analytical mind are your greatest assets today, helping you solve problems that others might overlook. Mercury's influence is sharpening your already keen observational skills, making this an excellent time for research, planning, or organizing important projects. Your practical approach to challenges will impress colleagues and superiors, potentially leading to increased responsibilities or recognition. Health and wellness are highlighted - consider implementing new routines that support your physical and mental well-being. Your desire to be of service to others is strong now, and you'll find fulfillment in helping friends or colleagues navigate difficult situations. In relationships, your thoughtful gestures and reliability are deeply appreciated, even if you don't always receive immediate acknowledgment. Don't let perfectionism prevent you from enjoying life's simple pleasures. A systematic approach to a financial matter could yield better results than expected. The evening favors quiet activities that allow you to process the day's experiences and plan for tomorrow. Remember that your pursuit of excellence inspires others to raise their own standards."
+    dateRange: "23 de Agosto - 22 de Setembro",
+    element: "Terra",
+    backgroundStyle: "bg-gradient-to-br from-green-600 via-teal-500 to-cyan-400",
+    horoscope: "Sua atenção meticulosa aos detalhes e mente analítica são seus maiores trunfos hoje, ajudando você a resolver problemas que outros podem ignorar. A influência de Mercúrio está aguçando suas já afiadas habilidades de observação, tornando este um momento excelente para pesquisa, planejamento ou organização de projetos importantes. Sua abordagem prática aos desafios impressionará colegas e superiores, potencialmente levando a responsabilidades aumentadas ou reconhecimento. Saúde e bem-estar estão em destaque - considere implementar novas rotinas que apoiem seu bem-estar físico e mental. Seu desejo de ser útil aos outros é forte agora, e você encontrará realização em ajudar amigos ou colegas a navegar situações difíceis. Nos relacionamentos, seus gestos atenciosos e confiabilidade são profundamente apreciados. Não deixe o perfeccionismo impedir você de desfrutar dos prazeres simples da vida."
   },
   {
     name: "Libra",
     symbol: "♎",
-    dateRange: "September 23 - October 22",
-    element: "Air",
-    horoscope: "Venus is bestowing her gifts of harmony and beauty upon you today, enhancing your natural diplomatic skills and aesthetic sensibilities. Your ability to see all sides of a situation makes you an invaluable mediator in conflicts, and your fair-minded approach will be sought after by others. Partnerships of all kinds are favored, whether in business, romance, or friendship. Your charm and social grace open doors that might remain closed to others. Consider investing in beautiful objects or experiences that bring joy to your daily life - your appreciation for beauty is particularly heightened now. In matters of justice or fairness, you may find yourself in a position to make a meaningful difference. Your desire for balance extends to all areas of life, so pay attention to achieving equilibrium between work and personal time. Romantic opportunities are abundant, with potential for meaningful connections based on shared values and intellectual compatibility. Collaborative projects promise exceptional results, as your ability to bring out the best in others creates synergistic effects. Trust your instincts about design, aesthetics, and social dynamics."
+    dateRange: "23 de Setembro - 22 de Outubro",
+    element: "Ar",
+    backgroundStyle: "bg-gradient-to-br from-pink-400 via-rose-300 to-purple-300",
+    horoscope: "Vênus está concedendo seus dons de harmonia e beleza a você hoje, aprimorando suas habilidades diplomáticas naturais e sensibilidades estéticas. Sua capacidade de ver todos os lados de uma situação faz de você um mediador inestimável em conflitos, e sua abordagem justa será procurada por outros. Parcerias de todos os tipos são favorecidas, seja nos negócios, romance ou amizade. Seu charme e graça social abrem portas que podem permanecer fechadas para outros. Considere investir em objetos belos ou experiências que tragam alegria à sua vida diária - sua apreciação pela beleza está particularmente elevada agora. Em questões de justiça ou equidade, você pode se encontrar em posição de fazer uma diferença significativa. Seu desejo de equilíbrio se estende a todas as áreas da vida, então preste atenção em alcançar equilíbrio entre trabalho e tempo pessoal. Oportunidades românticas são abundantes."
   },
   {
-    name: "Scorpio",
+    name: "Escorpião",
     symbol: "♏",
-    dateRange: "October 23 - November 21",
-    element: "Water",
-    horoscope: "Pluto's transformative energy is working powerfully through you today, bringing opportunities for profound personal growth and regeneration. Your intuitive abilities are exceptionally strong, allowing you to perceive hidden truths and underlying motivations that others miss entirely. This psychological insight gives you a significant advantage in both personal and professional situations. A secret or mystery may be revealed that changes your perspective on an important matter. Your magnetic presence and intensity draw others to you, but be mindful of using this power responsibly. Research, investigation, or any work requiring depth and persistence is highly favored. In relationships, emotional intimacy and honest communication can heal old wounds and strengthen bonds. Your ability to transform challenges into opportunities is remarkable now - trust in your resilience and inner strength. Financial matters involving shared resources, investments, or other people's money show positive developments. The spiritual and metaphysical realms call to you, offering insights that could reshape your worldview. Remember that true power comes from self-mastery and the ability to help others transform their lives."
+    dateRange: "23 de Outubro - 21 de Novembro",
+    element: "Água",
+    backgroundStyle: "bg-gradient-to-br from-purple-900 via-red-800 to-black",
+    horoscope: "A energia transformadora de Plutão está trabalhando poderosamente através de você hoje, trazendo oportunidades para crescimento pessoal profundo e regeneração. Suas habilidades intuitivas estão excepcionalmente fortes, permitindo que você perceba verdades ocultas e motivações subjacentes que outros perdem completamente. Este insight psicológico lhe dá uma vantagem significativa tanto em situações pessoais quanto profissionais. Um segredo ou mistério pode ser revelado que muda sua perspectiva sobre um assunto importante. Sua presença magnética e intensidade atraem outros a você, mas seja consciente de usar esse poder responsavelmente. Pesquisa, investigação ou qualquer trabalho que requeira profundidade e persistência é altamente favorecido. Nos relacionamentos, intimidade emocional e comunicação honesta podem curar feridas antigas e fortalecer vínculos. Sua capacidade de transformar desafios em oportunidades é notável agora."
   },
   {
-    name: "Sagittarius",
+    name: "Sagitário",
     symbol: "♐",
-    dateRange: "November 22 - December 21",
-    element: "Fire",
-    horoscope: "Jupiter's expansive influence is opening up exciting new horizons for you today, igniting your natural wanderlust and thirst for knowledge. Your optimistic outlook and philosophical nature attract opportunities for growth through education, travel, or cultural exchange. A chance to expand your worldview through meeting people from different backgrounds could prove transformative. Your natural teaching abilities and enthusiasm for sharing knowledge make you an inspiring presence in any group. Adventure calls to you, whether through physical travel or intellectual exploration of new subjects. In matters of higher learning, publishing, or legal affairs, positive developments are likely. Your honesty and straightforward approach, while sometimes blunt, is refreshing to others and builds trust. International connections or long-distance communications bring good news. Your sense of humor and ability to see the bigger picture help others gain perspective on their problems. Consider embarking on a spiritual or philosophical journey that could reshape your understanding of life's purpose. The afternoon brings opportunities for outdoor activities or sports that feed your need for freedom and movement."
+    dateRange: "22 de Novembro - 21 de Dezembro",
+    element: "Fogo",
+    backgroundStyle: "bg-gradient-to-br from-orange-600 via-yellow-500 to-red-400",
+    horoscope: "A influência expansiva de Júpiter está abrindo novos horizontes emocionantes para você hoje, acendendo sua paixão natural por viagens e sede de conhecimento. Sua perspectiva otimista e natureza filosófica atraem oportunidades de crescimento através de educação, viagem ou intercâmbio cultural. Uma chance de expandir sua visão de mundo através do encontro com pessoas de diferentes origens pode ser transformadora. Suas habilidades naturais de ensino e entusiasmo para compartilhar conhecimento fazem de você uma presença inspiradora em qualquer grupo. A aventura está chamando você, seja através de viagem física ou exploração intelectual de novos assuntos. Em questões de ensino superior, publicação ou assuntos legais, desenvolvimentos positivos são prováveis. Sua honestidade e abordagem direta, embora às vezes franca, é refrescante para outros e constrói confiança. Conexões internacionais ou comunicações de longa distância trazem boas notícias."
   },
   {
-    name: "Capricorn",
+    name: "Capricórnio",
     symbol: "♑",
-    dateRange: "December 22 - January 19",
-    element: "Earth",
-    horoscope: "Saturn's steady influence is rewarding your patience and persistent efforts with tangible progress toward your long-term goals. Your reputation for reliability and competence continues to grow, positioning you for leadership opportunities or increased recognition in your field. A methodical approach to a challenging project yields better results than expected, proving once again that slow and steady wins the race. Your practical wisdom and mature perspective are valued by both younger and older colleagues. Career advancement or financial improvement may come through traditional channels rather than risky ventures. Your ability to plan for the future and make sacrifices for long-term gain sets you apart from more impulsive personalities. In relationships, your loyalty and dependability create a sense of security that others cherish. Consider making concrete plans for goals you've been contemplating - the time for action is now. Your natural leadership qualities may be called upon to guide a team or organization through challenging times. Remember that your greatest strength lies in your ability to build lasting foundations for success. Authority figures may take notice of your contributions today."
+    dateRange: "22 de Dezembro - 19 de Janeiro",
+    element: "Terra",
+    backgroundStyle: "bg-gradient-to-br from-gray-700 via-slate-600 to-stone-500",
+    horoscope: "A influência constante de Saturno está recompensando sua paciência e esforços persistentes com progresso tangível em direção aos seus objetivos de longo prazo. Sua reputação de confiabilidade e competência continua a crescer, posicionando você para oportunidades de liderança ou reconhecimento aumentado em seu campo. Uma abordagem metódica para um projeto desafiador rende resultados melhores do que o esperado, provando mais uma vez que devagar e sempre ganha a corrida. Sua sabedoria prática e perspectiva madura são valorizadas tanto por colegas mais jovens quanto mais velhos. Avanço na carreira ou melhoria financeira pode vir através de canais tradicionais em vez de empreendimentos arriscados. Sua capacidade de planejar para o futuro e fazer sacrifícios para ganho de longo prazo o distingue de personalidades mais impulsivas. Nos relacionamentos, sua lealdade e confiabilidade criam uma sensação de segurança que outros prezam."
   },
   {
-    name: "Aquarius",
+    name: "Aquário",
     symbol: "♒",
-    dateRange: "January 20 - February 18",
-    element: "Air",
-    horoscope: "Uranus is electrifying your innovative spirit today, bringing flashes of genius and unconventional solutions to old problems. Your humanitarian instincts are strong, and you may find yourself drawn to causes that benefit society as a whole. Technology and progressive ideas feature prominently in today's activities - embrace new tools or methods that can improve efficiency or communication. Your unique perspective and willingness to challenge conventional thinking make you a catalyst for positive change. Friendships and group activities are highlighted, with the potential for forming connections with like-minded individuals who share your vision for a better future. Your detached yet caring approach to problems allows you to see solutions that more emotionally involved parties might miss. Sudden insights or unexpected developments could completely alter your approach to a long-standing issue. In matters of social justice or community improvement, your voice carries special weight today. Don't be afraid to express ideas that others might consider radical - your forward-thinking nature often proves to be ahead of its time. Collaboration with diverse groups brings innovative results."
+    dateRange: "20 de Janeiro - 18 de Fevereiro",
+    element: "Ar",
+    backgroundStyle: "bg-gradient-to-br from-cyan-500 via-blue-400 to-indigo-500",
+    horoscope: "Urano está eletrificando seu espírito inovador hoje, trazendo lampejos de genialidade e soluções não convencionais para problemas antigos. Seus instintos humanitários são fortes, e você pode se encontrar atraído por causas que beneficiam a sociedade como um todo. Tecnologia e ideias progressivas figuram proeminentemente nas atividades de hoje - abrace novas ferramentas ou métodos que podem melhorar a eficiência ou comunicação. Sua perspectiva única e disposição para desafiar o pensamento convencional fazem de você um catalisador para mudança positiva. Amizades e atividades em grupo estão em destaque, com potencial para formar conexões com indivíduos de mentalidade similar que compartilham sua visão para um futuro melhor. Sua abordagem desapegada mas carinhosa aos problemas permite que você veja soluções que partes mais emocionalmente envolvidas podem perder. Insights súbitos ou desenvolvimentos inesperados podem alterar completamente sua abordagem para uma questão de longa data."
   },
   {
-    name: "Pisces",
+    name: "Peixes",
     symbol: "♓",
-    dateRange: "February 19 - March 20",
-    element: "Water",
-    horoscope: "Neptune's mystical influence is heightening your already powerful intuition and creative imagination today. Your empathetic nature allows you to understand and comfort others in ways that feel almost magical to them. Artistic pursuits and spiritual practices are especially favored, offering pathways to both personal fulfillment and potential recognition. Your ability to tap into the collective unconscious gives you insights into trends and movements before they become obvious to others. Dreams and synchronicities provide meaningful guidance - pay attention to recurring symbols or themes. Your compassionate response to someone's difficulties creates a ripple effect of healing that extends far beyond the immediate situation. Water-related activities or locations bring peace and inspiration to your soul. Your natural psychic abilities are particularly strong now, so trust those gut feelings about people and situations. In relationships, your understanding and forgiveness create deeper intimacy and emotional healing. Consider channeling your abundant emotions into creative expression or charitable work. The boundary between the material and spiritual worlds seems especially thin today, offering opportunities for profound insights and mystical experiences."
+    dateRange: "19 de Fevereiro - 20 de Março",
+    element: "Água",
+    backgroundStyle: "bg-gradient-to-br from-teal-600 via-blue-500 to-purple-600",
+    horoscope: "A influência mística de Netuno está elevando sua já poderosa intuição e imaginação criativa hoje. Sua natureza empática permite que você compreenda e console outros de maneiras que parecem quase mágicas para eles. Empreendimentos artísticos e práticas espirituais são especialmente favorecidos, oferecendo caminhos tanto para realização pessoal quanto reconhecimento potencial. Sua capacidade de acessar o inconsciente coletivo lhe dá insights sobre tendências e movimentos antes que se tornem óbvios para outros. Sonhos e sincronicidades fornecem orientação significativa - preste atenção a símbolos ou temas recorrentes. Sua resposta compassiva às dificuldades de alguém cria um efeito cascata de cura que se estende muito além da situação imediata. Atividades ou locais relacionados à água trazem paz e inspiração à sua alma. Suas habilidades psíquicas naturais estão particularmente fortes agora, então confie nessas sensações instintivas sobre pessoas e situações."
   }
 ];
 
@@ -107,7 +120,7 @@ const Index = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    // Load notification preferences from localStorage
+    // Carregar preferências de notificação do localStorage
     const saved = localStorage.getItem('horoscopeNotifications');
     if (saved) {
       setNotifications(JSON.parse(saved));
@@ -123,55 +136,86 @@ const Index = () => {
     localStorage.setItem('horoscopeNotifications', JSON.stringify(newNotifications));
     
     toast({
-      title: notifications[signName] ? "Notifications disabled" : "Notifications enabled",
-      description: `Daily horoscopes for ${signName} ${notifications[signName] ? 'disabled' : 'enabled'}`,
+      title: notifications[signName] ? "Notificações desabilitadas" : "Notificações habilitadas",
+      description: `Horóscopo diário para ${signName} ${notifications[signName] ? 'desabilitado' : 'habilitado'}`,
     });
   };
 
   const selectedZodiac = zodiacSigns.find(sign => sign.name === selectedSign);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 relative overflow-hidden">
-      {/* Animated background elements */}
+    <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-purple-950 to-black relative overflow-hidden">
+      {/* Elementos de fundo animados estilo Via Láctea */}
       <div className="absolute inset-0 overflow-hidden">
+        {/* Estrelas pequenas */}
+        {[...Array(50)].map((_, i) => (
+          <div
+            key={i}
+            className={`absolute animate-pulse`}
+            style={{
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${2 + Math.random() * 2}s`
+            }}
+          >
+            <Star className="w-1 h-1 text-white opacity-60" />
+          </div>
+        ))}
+        
+        {/* Estrelas médias */}
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={`medium-${i}`}
+            className={`absolute animate-pulse`}
+            style={{
+              top: `${Math.random() * 100}%`,
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 4}s`,
+              animationDuration: `${3 + Math.random() * 2}s`
+            }}
+          >
+            <Star className="w-2 h-2 text-yellow-300 opacity-70" />
+          </div>
+        ))}
+
+        {/* Elementos celestiais especiais */}
         <div className="absolute top-20 left-10 animate-pulse">
-          <Star className="w-4 h-4 text-yellow-300 opacity-70" />
+          <Moon className="w-8 h-8 text-blue-200 opacity-40" />
         </div>
-        <div className="absolute top-32 right-20 animate-pulse delay-1000">
-          <Star className="w-3 h-3 text-yellow-200 opacity-60" />
+        <div className="absolute bottom-20 right-10 animate-pulse delay-1000">
+          <Sun className="w-6 h-6 text-yellow-400 opacity-50" />
         </div>
-        <div className="absolute bottom-40 left-1/4 animate-pulse delay-2000">
-          <Moon className="w-6 h-6 text-blue-200 opacity-50" />
-        </div>
-        <div className="absolute top-1/3 right-1/3 animate-pulse delay-3000">
-          <Star className="w-2 h-2 text-white opacity-80" />
-        </div>
-        <div className="absolute bottom-20 right-10 animate-pulse delay-500">
-          <Sun className="w-5 h-5 text-yellow-400 opacity-60" />
-        </div>
+        
+        {/* Nuvem de estrelas da Via Láctea */}
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-purple-900/20 to-transparent transform rotate-12 opacity-30"></div>
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-8">
-        {/* Header */}
+        {/* Cabeçalho */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-pink-300 mb-4">
-            Daily Horoscope
+          <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 mb-4">
+            Horóscopo Diário
           </h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Discover what the stars have in store for you today. Select your zodiac sign and enable notifications for daily cosmic guidance.
+            Descubra o que as estrelas reservaram para você hoje. Selecione seu signo e ative as notificações para receber orientação cósmica diariamente.
+          </p>
+          <p className="text-sm text-purple-300 mt-4 opacity-80">
+            * Conteúdo baseado em fontes astrológicas brasileiras e traduzido automaticamente quando necessário
           </p>
         </div>
 
         {!selectedSign ? (
-          /* Zodiac Grid */
+          /* Grade dos Signos */
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {zodiacSigns.map((sign) => (
               <Card 
                 key={sign.name}
-                className="group bg-white/10 backdrop-blur-md border-white/20 hover:bg-white/20 transition-all duration-300 cursor-pointer transform hover:scale-105 hover:shadow-2xl"
+                className="group bg-white/10 backdrop-blur-md border-white/20 hover:bg-white/20 transition-all duration-300 cursor-pointer transform hover:scale-105 hover:shadow-2xl overflow-hidden"
                 onClick={() => setSelectedSign(sign.name)}
               >
-                <CardHeader className="text-center pb-2">
+                <div className={`absolute inset-0 opacity-20 ${sign.backgroundStyle}`}></div>
+                <CardHeader className="text-center pb-2 relative z-10">
                   <div className="text-4xl mb-2 group-hover:scale-110 transition-transform duration-300">
                     {sign.symbol}
                   </div>
@@ -179,11 +223,11 @@ const Index = () => {
                     {sign.name}
                   </CardTitle>
                   <p className="text-blue-200 text-sm">{sign.dateRange}</p>
-                  <p className="text-yellow-300 text-xs font-semibold">{sign.element}</p>
+                  <p className="text-yellow-300 text-xs font-semibold">Elemento {sign.element}</p>
                 </CardHeader>
-                <CardContent className="pt-0">
+                <CardContent className="pt-0 relative z-10">
                   <div className="flex items-center justify-between">
-                    <span className="text-white/80 text-sm">Daily notifications</span>
+                    <span className="text-white/80 text-sm">Notificações diárias</span>
                     <div className="flex items-center space-x-2">
                       {notifications[sign.name] ? (
                         <Bell className="w-4 h-4 text-yellow-400" />
@@ -204,18 +248,19 @@ const Index = () => {
             ))}
           </div>
         ) : (
-          /* Selected Sign Detail */
+          /* Detalhes do Signo Selecionado */
           <div className="max-w-4xl mx-auto">
             <Button 
               onClick={() => setSelectedSign(null)}
               variant="outline"
               className="mb-6 bg-white/10 border-white/20 text-white hover:bg-white/20"
             >
-              ← Back to all signs
+              ← Voltar para todos os signos
             </Button>
             
-            <Card className="bg-white/10 backdrop-blur-md border-white/20">
-              <CardHeader className="text-center">
+            <Card className="bg-white/10 backdrop-blur-md border-white/20 overflow-hidden">
+              <div className={`absolute inset-0 opacity-30 ${selectedZodiac?.backgroundStyle}`}></div>
+              <CardHeader className="text-center relative z-10">
                 <div className="text-8xl mb-4">
                   {selectedZodiac?.symbol}
                 </div>
@@ -223,21 +268,21 @@ const Index = () => {
                   {selectedZodiac?.name}
                 </CardTitle>
                 <p className="text-blue-200 text-lg">{selectedZodiac?.dateRange}</p>
-                <p className="text-yellow-300 font-semibold">{selectedZodiac?.element} Sign</p>
+                <p className="text-yellow-300 font-semibold">Signo de {selectedZodiac?.element}</p>
               </CardHeader>
-              <CardContent>
-                <div className="bg-white/5 rounded-lg p-6 mb-6">
+              <CardContent className="relative z-10">
+                <div className="bg-black/20 rounded-lg p-6 mb-6 backdrop-blur-sm">
                   <h3 className="text-white text-xl font-semibold mb-4 flex items-center">
                     <Star className="w-5 h-5 mr-2 text-yellow-400" />
-                    Today's Horoscope
+                    Horóscopo de Hoje
                   </h3>
                   <p className="text-blue-100 leading-relaxed text-lg">
                     {selectedZodiac?.horoscope}
                   </p>
                 </div>
                 
-                <div className="flex items-center justify-between bg-white/5 rounded-lg p-4">
-                  <span className="text-white text-lg">Enable daily notifications for {selectedZodiac?.name}</span>
+                <div className="flex items-center justify-between bg-black/20 rounded-lg p-4 backdrop-blur-sm">
+                  <span className="text-white text-lg">Ativar notificações diárias para {selectedZodiac?.name}</span>
                   <div className="flex items-center space-x-3">
                     {notifications[selectedZodiac?.name || ''] ? (
                       <Bell className="w-5 h-5 text-yellow-400" />
